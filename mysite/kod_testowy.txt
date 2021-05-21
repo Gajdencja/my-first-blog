@@ -1,0 +1,580 @@
+Microsoft Windows [Version 10.0.18363.1556]
+(c) 2019 Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\K8946041> cd Desktop
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hello, Django girls!
+
+C:\Users\K8946041\Desktop>PYTHON PYTHON_INTRO.PY
+Hello, Django girls!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+to nie działa!!!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+5 jest jednak większe od 2
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hej Sonja!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Perfect, I can hear all the details
+
+C:\Users\K8946041\Desktop>python python_intro.py
+It's kinda quiet.
+
+C:\Users\K8946041\Desktop>python python_intro.py
+  File "python_intro.py", line 2
+    print('Hello')
+        ^
+IndentationError: expected an indented block
+
+C:\Users\K8946041\Desktop>python python_intro.py
+  File "python_intro.py", line 2
+    print('Hello')
+        ^
+IndentationError: expected an indented block
+
+C:\Users\K8946041\Desktop>python python_intro.py
+  File "python_intro.py", line 1
+    def hi()
+           ^
+SyntaxError: invalid syntax
+
+C:\Users\K8946041\Desktop>python python_intro.py
+  File "python_intro.py", line 4
+    hi()
+        ^
+IndentationError: unindent does not match any outer indentation level
+
+C:\Users\K8946041\Desktop>python python_intro.py
+  File "python_intro.py", line 4
+    hi()
+        ^
+IndentationError: unindent does not match any outer indentation level
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hej!
+Jak się masz?
+
+C:\Users\K8946041\Desktop>def hi(imie):
+'def' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\K8946041\Desktop>    if imie == 'Ola':
+The syntax of the command is incorrect.
+
+C:\Users\K8946041\Desktop>        print('Hej Ola!')
+Unable to initialize device PRN
+
+C:\Users\K8946041\Desktop>    elif imie == 'Sonja':
+'elif' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\K8946041\Desktop>        print('Hej Sonja!')
+Unable to initialize device PRN
+
+C:\Users\K8946041\Desktop>    else:
+'else:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\K8946041\Desktop>        print('Hej nieznajoma!')
+Unable to initialize device PRN
+
+C:\Users\K8946041\Desktop>
+C:\Users\K8946041\Desktop>hi()
+'hi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Traceback (most recent call last):
+  File "python_intro.py", line 9, in <module>
+    hi()
+TypeError: hi() missing 1 required positional argument: 'imie'
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Traceback (most recent call last):
+  File "python_intro.py", line 9, in <module>
+    hi()
+TypeError: hi() missing 1 required positional argument: 'imie'
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Traceback (most recent call last):
+  File "python_intro.py", line 9, in <module>
+    hi(imie)
+NameError: name 'imie' is not defined
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Traceback (most recent call last):
+  File "python_intro.py", line 9, in <module>
+    hi(Ola)
+NameError: name 'Ola' is not defined
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hej Ola!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hej!
+Jak się masz?
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Hej Klaudia!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Witaj Rachel!
+Kolejna dziewczyna
+Witaj Monica!
+Kolejna dziewczyna
+Witaj Phoebe!
+Kolejna dziewczyna
+Witaj Ola!
+Kolejna dziewczyna
+Witaj Klaudia!
+Kolejna dziewczyna
+Witaj Maja!
+Kolejna dziewczyna
+
+C:\Users\K8946041\Desktop>python python_intro.py
+Witaj Rachel!
+Witaj Monica!
+Witaj Phoebe!
+Witaj Ola!
+Witaj Klaudia!
+Witaj Maja!
+
+C:\Users\K8946041\Desktop>python python_intro.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+C:\Users\K8946041\Desktop>mkdir djangogirls
+
+C:\Users\K8946041\Desktop>cd djangogirls
+
+C:\Users\K8946041\Desktop\djangogirls>python -m venv myvenv
+
+C:\Users\K8946041\Desktop\djangogirls>myvenv\Scripts\activate
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>-m pip install --upgrade pip
+'-m' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>python -m pip install --upgrade pip
+Collecting pip
+  Downloading pip-21.1.1-py3-none-any.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 364 kB/s
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.1.1
+    Uninstalling pip-20.1.1:
+      Successfully uninstalled pip-20.1.1
+Successfully installed pip-21.1.1
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>djangogirls
+'djangogirls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>python pip install -r requirements.txt
+C:\Users\K8946041\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\python.exe: can't open file 'pip': [Errno 2] No such file or directory
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>pip install -r requirements.txt
+Collecting Django~=2.2.4
+  Downloading Django-2.2.23-py3-none-any.whl (7.5 MB)
+     |████████████████████████████████| 7.5 MB 344 kB/s
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB 98 kB/s
+Collecting pytz
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB 172 kB/s
+Installing collected packages: sqlparse, pytz, Django
+Successfully installed Django-2.2.23 pytz-2021.1 sqlparse-0.4.1
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>django-admin.exe startproject mysite .
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying sessions.0001_initial... OK
+
+(myvenv) C:\Users\K8946041\Desktop\djangogirls>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 21, 2021 - 08:32:54
+Django version 2.2.23, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[21/May/2021 08:33:24] "GET / HTTP/1.1" 200 16427
+[21/May/2021 08:33:24] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[21/May/2021 08:33:24] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[21/May/2021 08:33:24] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[21/May/2021 08:33:24] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[21/May/2021 08:33:24] "GET /favicon.ico HTTP/1.1" 404 1972
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
